@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <title>Gallery - United Youth Association</title>
+    <link rel="icon" type="image/png" href="images/favicon.webp" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/animated_barfiller.css" />
+    <link rel="stylesheet" href="css/venobox.min.css" />
+    <link rel="stylesheet" href="css/scroll_button.css" />
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css" />
+    <link rel="stylesheet" href="css/spacing.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body class="home_2 event_page gallery_page">
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <ul class="header_info">
+                        <li>
+                            <span><img src="images/mail_icon.svg" alt="mail" class="img-fluid injectable" /></span>
+                            unitedyouthassociation2026@gmail.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="header_right">
+                        <ul class="icon d-none d-sm-flex">
+                            <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" aria-label="X"><svg class="social_x_icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817-5.965 6.817H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg></a></li>
+                            <li><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container">
+            <a class="navbar-brand logot" href="index.html">
+                <img src="images/logo-1.png" alt="United Youth Association Logo" class="img-fluid w-100" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about_us.html">About</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="campaign_list.html">Our Work <i class="far fa-chevron-down"></i></a>
+                        <ul class="sub_menu">
+                            <li><a href="campaign_list.html">Causes</a></li>
+                            <li><a href="services.html">Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="event.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="volunteer.html">Volunteers</a></li>
+                </ul>
+                <div class="menu_right">
+                    <a href="contact.html" class="common_btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="event_page_hero">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-8">
+                        <div class="event_page_hero_text">
+                            <span>Photo Gallery</span>
+                            <h1>Moments from our community work.</h1>
+                            <p>Browse photos from United Youth Association drives, camps, and volunteer activities.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event_page_hero_card">
+                            <strong>Community Album</strong>
+                            <span>32 Photos</span>
+                            <p>Real moments from our local initiatives and youth-led service work.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home_gallery_area mt_95">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-7">
+                        <div class="section_heading">
+                            <h5>Gallery</h5>
+                            <h2>Moments From Our Community Work</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <ul class="nav home_gallery_tabs" id="galleryPageTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="gallery-tab" data-bs-toggle="tab"
+                                    data-bs-target="#gallery-pane" type="button" role="tab"
+                                    aria-controls="gallery-pane" aria-selected="true">
+                                    <i class="far fa-images"></i> Gallery
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="video-tab" data-bs-toggle="tab"
+                                    data-bs-target="#video-pane" type="button" role="tab" aria-controls="video-pane"
+                                    aria-selected="false">
+                                    <i class="far fa-play-circle"></i> Video
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-content home_gallery_content" id="galleryPageTabContent">
+                    <div class="tab-pane fade show active" id="gallery-pane" role="tabpanel"
+                        aria-labelledby="gallery-tab" tabindex="0">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/blood-111.jpeg">
+                                    <img src="images/photos/blood-111.jpeg" alt="Blood donation camp poster" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/bn-1.jpeg">
+                                    <img src="images/photos/bn-1.jpeg" alt="Community event by volunteers" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/gh-11.jpeg">
+                                    <img src="images/photos/gh-11.jpeg" alt="Local gathering by youth volunteers" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/kl-111.jpeg">
+                                    <img src="images/photos/kl-111.jpeg" alt="Community program stage setup" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/bt-11.jpeg">
+                                    <img src="images/photos/bt-11.jpeg" alt="United Youth Association activity" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/photo-11.jpeg">
+                                    <img src="images/photos/photo-11.jpeg" alt="Volunteer service moment" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/banner-5.jpeg">
+                                    <img src="images/photos/banner-5.jpeg" alt="United Youth Association community program" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/banner-22.jpeg">
+                                    <img src="images/photos/banner-22.jpeg" alt="Youth volunteers at a local event" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/banner-11122.jpeg">
+                                    <img src="images/photos/banner-11122.jpeg" alt="Yoga Day group activity" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/banner-10.jpeg">
+                                    <img src="images/photos/banner-10.jpeg" alt="Community activity banner" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/banner-111.jpeg">
+                                    <img src="images/photos/banner-111.jpeg" alt="United Youth Association banner" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.55 PM (1).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.55 PM (1).jpeg" alt="Community service photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.55 PM.jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.55 PM.jpeg" alt="Community service photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.56 PM (1).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.56 PM (1).jpeg" alt="Volunteer activity photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.56 PM (2).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.56 PM (2).jpeg" alt="Volunteer activity photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.56 PM.jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.56 PM.jpeg" alt="Volunteer activity photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.57 PM (1).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.57 PM (1).jpeg" alt="United Youth Association event photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.57 PM (2).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.57 PM (2).jpeg" alt="United Youth Association event photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                        
+                          
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.58 PM (2).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.58 PM (2).jpeg" alt="Community work photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.58 PM.jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.58 PM.jpeg" alt="Community work photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.59 PM (1).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.59 PM (1).jpeg" alt="Local initiative photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.59 PM (2).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.59 PM (2).jpeg" alt="Local initiative photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 5.59.59 PM.jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 5.59.59 PM.jpeg" alt="Local initiative photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 6.00.00 PM (1).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 6.00.00 PM (1).jpeg" alt="Youth association photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 6.00.00 PM (2).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 6.00.00 PM (2).jpeg" alt="Youth association photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 6.00.00 PM.jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 6.00.00 PM.jpeg" alt="Youth association photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 6.00.01 PM (1).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 6.00.01 PM (1).jpeg" alt="Volunteer service photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 6.00.01 PM (2).jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 6.00.01 PM (2).jpeg" alt="Volunteer service photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                         
+                            <div class="col-lg-4 col-md-6">
+                                <a class="home_gallery_item venobox" data-gall="gallery-page" href="images/photos/WhatsApp Image 2026-06-29 at 6.00.02 PM.jpeg">
+                                    <img src="images/photos/WhatsApp Image 2026-06-29 at 6.00.02 PM.jpeg" alt="Community album photo" class="img-fluid w-100" />
+                                    <span><i class="far fa-search-plus"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="video-pane" role="tabpanel" aria-labelledby="video-tab" tabindex="0">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="home_video_item real_video_item">
+                                    <video controls preload="metadata" poster="images/photos/banner-11122.jpeg">
+                                        <source src="images/videos/video-1.mp4" type="video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="text">
+                                        <h3>Community Program Video</h3>
+                                        <p>Real footage from United Youth Association's local activity.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="home_video_item real_video_item">
+                                    <video controls preload="metadata" poster="images/photos/banner-10.jpeg">
+                                        <source src="images/videos/video-2.mp4" type="video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="text">
+                                        <h3>Volunteer Activity Video</h3>
+                                        <p>On-ground moments from the youth-led community program.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer_2 mt_135">
+        <div class="footer_2_overlay">
+            <div class="container">
+                <div class="row footer_2_main justify-content-between">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer_2_logo_area">
+                            <a class="footer_2_brand" href="index.html">United Youth Association</a>
+                            <p>United Youth Association is a new Indian youth-led NGO working for education, health,
+                                food support, and community care.</p>
+                            <ul class="d-flex flex-wrap">
+                                <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#" aria-label="X"><svg class="social_x_icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817-5.965 6.817H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg></a></li>
+                                <li><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6 col-md-3">
+                        <div class="footer_2_link">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li><a href="blogs.html">News and Updates</a></li>
+                                <li><a href="services.html">Our Work</a></li>
+                                <li><a href="volunteer.html">Volunteer</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6 col-md-3">
+                        <div class="footer_2_link">
+                            <h3>Get Involved</h3>
+                            <ul>
+                                <li><a href="about_us.html">About us</a></li>
+                                <li><a href="event.html">Events</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer_2_contact">
+                            <h3>Reach Us</h3>
+                            <p><i class="far fa-map-marker-alt"></i> Egara, Raniganj, Paschim Bardhaman, West Bengal</p>
+                            <p><i class="far fa-envelope"></i> unitedyouthassociation2026@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_2_copyright mt_50">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="footer_2_copyright_text justify-content-center">
+                                <p>&copy; 2026 All Rights Reserved by <span>United Youth Association</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/Font-Awesome.js"></script>
+    <script src="js/svg-inject.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src="js/jquery.marquee.min.js"></script>
+    <script src="js/animated_barfiller.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/sticky_sidebar.js"></script>
+    <script src="js/scroll_button.js"></script>
+    <script src="js/jquery.animatedheadline.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
