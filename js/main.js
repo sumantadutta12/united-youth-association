@@ -100,19 +100,19 @@ $(function () {
                 title: 'Start as a field volunteer',
                 text: 'Join a local drive for 2-3 hours. Help with crowd guidance, item distribution, registrations, or follow-up visits around Egara and Raniganj.',
                 link: 'contact.html',
-                linkText: 'Contact Us'
+                linkText: 'Reach Us'
             },
             donate: {
                 tag: 'Support suggestion',
                 title: 'Support a focused community need',
                 text: 'Choose a clear need like school kits, food support, health awareness, or event logistics. We will guide you with the current priority.',
                 link: 'contact.html',
-                linkText: 'Contact Us'
+                linkText: 'Reach Us'
             },
             blood: {
-                tag: 'Health drive support',
-                title: 'Help organize the blood donation camp',
-                text: 'You can join the blood camp, register participants, share awareness, arrange transport, or help with on-ground coordination during the camp.',
+                tag: 'Sports event support',
+                title: 'Help organize the Floodlight Football Cup',
+                text: 'You can help with team registration, ground coordination, crowd guidance, match support, or local event arrangements for the Gill Cup.',
                 link: 'event.html',
                 linkText: 'View Events'
             },
@@ -198,7 +198,6 @@ $(function () {
                 '.navbar-nav .nav-item:eq(3) .nav-link': 'Events',
                 '.navbar-nav .nav-item:eq(4) .nav-link': 'Gallery',
                 '.navbar-nav .nav-item:eq(5) .nav-link': 'Volunteers',
-                '.menu_right .common_btn': 'Contact Us',
                 '.banner_slider_item[style*="banner-11122"] .banner_text h5': 'United Youth Association',
                 '.banner_slider_item[style*="banner-11122"] .banner_text h1': 'Young Hands, Real Help For Our Community.',
                 '.banner_slider_item[style*="banner-11122"] .banner_text p': 'We started just two months ago with a simple goal: support children, families, and elderly people through small but consistent community action.',
@@ -248,8 +247,8 @@ $(function () {
                 '.event_2 .section_heading h5': 'Events',
                 '.event_2 .section_heading h2': 'Upcoming Community Activities',
                 '.event_2 .section_heading_btn .common_btn': 'view more',
-                '.event_2 .wssus__event_item_2 .title': 'Blood Donation Camp',
-                '.event_2 .wssus__event_item_2 .text p': 'Give blood and help save lives through our community blood donation drive.',
+                '.event_2 .wssus__event_item_2 .title': 'Floodlight Football Cup',
+                '.event_2 .wssus__event_item_2 .text p': 'Join the Gill Cup, a 16-team mini-bar football tournament at New Egara, Raniganj.',
                 '.home_gallery_area .section_heading h5': 'Gallery',
                 '.home_gallery_area .section_heading h2': 'Moments From Our Community Work',
                 '.home_faq_area .section_heading h5': 'FAQ',
@@ -277,7 +276,7 @@ $(function () {
             ],
             faqBody: [
                 'United Youth Association works on local education support, health awareness, blood donation, food and essentials support, and elderly care through youth-led community drives.',
-                'You can contact us through the Contact page and share your name, phone number, area, and available time. Our team will connect you with suitable field or support work.',
+                'Reach our team through the Contact page and share your name, phone number, area, and available time. Our team will connect you with suitable field or support work.',
                 'Yes. You can help with specific needs such as school kits, food support, health awareness, or event arrangements. We keep the purpose clear before accepting support.',
                 'Our current work is based around Egara, Raniganj, Paschim Bardhaman, West Bengal, with a focus on nearby local communities.'
             ]
@@ -566,7 +565,7 @@ $(function () {
     });
 
     // Homepage scroll reveal animation
-    if ($('body').hasClass('home_2')) {
+    if (isHomePage) {
         const revealItems = document.querySelectorAll([
             '.home_2 section:not(.banner)',
             '.home_2 .section_heading',
