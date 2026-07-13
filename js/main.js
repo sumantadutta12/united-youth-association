@@ -189,7 +189,7 @@ $(function () {
     const homeTranslations = {
         en: {
             text: {
-                'title': 'United Youth Association - Community NGO',
+                'title': 'United Youth Association - Community Association',
                 '.navbar-nav .nav-item:eq(0) .nav-link': 'Home',
                 '.navbar-nav .nav-item:eq(1) .nav-link': 'About',
                 '.navbar-nav .nav-item:eq(2) .nav-link': 'Our Work',
@@ -201,7 +201,7 @@ $(function () {
                 '.banner_slider_item[style*="banner-11122"] .banner_text h5': 'United Youth Association',
                 '.banner_slider_item[style*="banner-11122"] .banner_text h1': 'Young Hands, Real Help For Our Community.',
                 '.banner_slider_item[style*="banner-11122"] .banner_text p': 'We started just two months ago with a simple goal: support children, families, and elderly people through small but consistent community action.',
-                '.banner_slider_item[style*="banner-10"] .banner_text h5': 'New NGO, Honest Work',
+                '.banner_slider_item[style*="banner-10"] .banner_text h5': 'New Association, Honest Work',
                 '.banner_slider_item[style*="banner-10"] .banner_text h1': 'Building Trust One Local Drive At A Time.',
                 '.banner_slider_item[style*="banner-10"] .banner_text p': 'Our team is still young, but our commitment is clear. Every effort goes toward practical needs like food, school supplies, basic care, and awareness programs.',
                 '.banner_slider_item[style*="banner-111.jpeg"] .banner_text h5': 'Together We Can Begin',
@@ -215,7 +215,7 @@ $(function () {
                 '.category_item h3:eq(4)': 'Sports Support',
                 '.category_item h3:eq(5)': 'Social Help',
                 '.about_us_2 .section_heading h5': 'About Us',
-                '.about_us_2 .section_heading h2': 'A New Youth-Led NGO Working With Local Families',
+                '.about_us_2 .section_heading h2': 'A Youth-Led Community Association Working With Local Families',
                 '.about_description': 'United Youth Association began two months ago with a small group of volunteers and a shared promise to serve with honesty. We focus on practical help for children, families, elderly people, and local communities.',
                 '.about_2_text_img .common_btn': 'Read more',
                 '.campaign_2 .section_heading h5': 'Current Focus',
@@ -256,7 +256,7 @@ $(function () {
                 '.home_faq_intro': 'Clear answers for volunteers and community members who want to understand how we work.',
                 '.testimonial_2_bg .section_heading h5': 'Community Voices',
                 '.testimonial_2_bg .section_heading h2': 'What People Say About Our First Efforts',
-                '.footer_2_logo_area p': 'United Youth Association is a new Indian youth-led NGO working for education, health, food support, and community care.',
+                '.footer_2_logo_area p': 'United Youth Association is an Indian youth-led community association working for education, health, food support, and community care.',
                 '.footer_2_link:eq(0) h3': 'Quick Links',
                 '.footer_2_link:eq(1) h3': 'Get Involved',
                 '.footer_2_contact h3': 'Reach Us'
@@ -283,7 +283,7 @@ $(function () {
         },
         bn: {
             text: {
-                'title': 'ইউনাইটেড ইয়ুথ অ্যাসোসিয়েশন - কমিউনিটি এনজিও',
+                'title': 'ইউনাইটেড ইয়ুথ অ্যাসোসিয়েশন - কমিউনিটি এসোসিয়েশন',
                 '.navbar-nav .nav-item:eq(0) .nav-link': 'হোম',
                 '.navbar-nav .nav-item:eq(1) .nav-link': 'আমাদের সম্পর্কে',
                 '.navbar-nav .nav-item:eq(2) .nav-link': 'আমাদের কাজ',
@@ -296,7 +296,7 @@ $(function () {
                 '.banner_slider_item[style*="banner-11122"] .banner_text h5': 'ইউনাইটেড ইয়ুথ অ্যাসোসিয়েশন',
                 '.banner_slider_item[style*="banner-11122"] .banner_text h1': 'তরুণ হাত, আমাদের সমাজের জন্য সত্যিকারের সহায়তা।',
                 '.banner_slider_item[style*="banner-11122"] .banner_text p': 'মাত্র দুই মাস আগে আমরা সহজ লক্ষ্য নিয়ে শুরু করেছি: ছোট কিন্তু নিয়মিত কমিউনিটি কাজের মাধ্যমে শিশু, পরিবার ও বয়স্কদের পাশে দাঁড়ানো।',
-                '.banner_slider_item[style*="banner-10"] .banner_text h5': 'নতুন এনজিও, সৎ কাজ',
+                '.banner_slider_item[style*="banner-10"] .banner_text h5': 'নতুন এসোসিয়েশন, সৎ কাজ',
                 '.banner_slider_item[style*="banner-10"] .banner_text h1': 'প্রতিটি স্থানীয় ড্রাইভে বিশ্বাস গড়ে তুলছি।',
                 '.banner_slider_item[style*="banner-10"] .banner_text p': 'আমাদের দল এখনও নতুন, কিন্তু প্রতিশ্রুতি স্পষ্ট। প্রতিটি সহায়তা খাদ্য, স্কুল সামগ্রী, মৌলিক যত্ন ও সচেতনতা কর্মসূচির মতো বাস্তব প্রয়োজনে ব্যবহৃত হয়।',
                 '.banner_slider_item[style*="banner-111.jpeg"] .banner_text h5': 'একসাথে শুরু করি',
@@ -310,7 +310,7 @@ $(function () {
                 '.category_item h3:eq(4)': 'খেলাধুলা সহায়তা',
                 '.category_item h3:eq(5)': 'সামাজিক সহায়তা',
                 '.about_us_2 .section_heading h5': 'আমাদের সম্পর্কে',
-                '.about_us_2 .section_heading h2': 'স্থানীয় পরিবারের পাশে নতুন যুব-নেতৃত্বাধীন এনজিও',
+                '.about_us_2 .section_heading h2': 'স্থানীয় পরিবারের পাশে নতুন যুব-নেতৃত্বাধীন এসোসিয়েশন',
                 '.about_description': 'ইউনাইটেড ইয়ুথ অ্যাসোসিয়েশন দুই মাস আগে কয়েকজন স্বেচ্ছাসেবক এবং সততার সঙ্গে সেবা করার অঙ্গীকার নিয়ে শুরু হয়েছে। আমরা শিশু, পরিবার, বয়স্ক মানুষ এবং স্থানীয় সমাজের বাস্তব সহায়তায় কাজ করি।',
                 '.about_2_text_img .common_btn': 'আরও পড়ুন',
                 '.campaign_2 .section_heading h5': 'বর্তমান লক্ষ্য',
@@ -351,7 +351,7 @@ $(function () {
                 '.home_faq_intro': 'স্বেচ্ছাসেবক, দাতা এবং সমাজের মানুষ যারা আমাদের কাজ বুঝতে চান তাদের জন্য পরিষ্কার উত্তর।',
                 '.testimonial_2_bg .section_heading h5': 'কমিউনিটির কথা',
                 '.testimonial_2_bg .section_heading h2': 'আমাদের প্রথম প্রচেষ্টা সম্পর্কে মানুষের মতামত',
-                '.footer_2_logo_area p': 'ইউনাইটেড ইয়ুথ অ্যাসোসিয়েশন একটি নতুন ভারতীয় যুব-নেতৃত্বাধীন এনজিও, যা শিক্ষা, স্বাস্থ্য, খাদ্য সহায়তা এবং কমিউনিটি কেয়ারে কাজ করে।',
+                '.footer_2_logo_area p': 'ইউনাইটেড ইয়ুথ অ্যাসোসিয়েশন একটি নতুন ভারতীয় যুব-নেতৃত্বাধীন এসোসিয়েশন, যা শিক্ষা, স্বাস্থ্য, খাদ্য সহায়তা এবং কমিউনিটি কেয়ারে কাজ করে।',
                 '.footer_2_link:eq(0) h3': 'দ্রুত লিঙ্ক',
                 '.footer_2_link:eq(1) h3': 'যুক্ত হন',
                 '.footer_2_contact h3': 'যোগাযোগ'
@@ -378,7 +378,7 @@ $(function () {
         },
         hi: {
             text: {
-                'title': 'यूनाइटेड यूथ एसोसिएशन - कम्युनिटी NGO',
+                'title': 'यूनाइटेड यूथ एसोसिएशन - कम्युनिटी एसोसिएशन',
                 '.navbar-nav .nav-item:eq(0) .nav-link': 'होम',
                 '.navbar-nav .nav-item:eq(1) .nav-link': 'हमारे बारे में',
                 '.navbar-nav .nav-item:eq(2) .nav-link': 'हमारा काम',
@@ -391,7 +391,7 @@ $(function () {
                 '.banner_slider_item[style*="banner-11122"] .banner_text h5': 'यूनाइटेड यूथ एसोसिएशन',
                 '.banner_slider_item[style*="banner-11122"] .banner_text h1': 'युवा हाथ, हमारे समाज के लिए सच्ची मदद।',
                 '.banner_slider_item[style*="banner-11122"] .banner_text p': 'हमने दो महीने पहले एक सरल लक्ष्य से शुरुआत की: छोटे लेकिन नियमित सामुदायिक काम से बच्चों, परिवारों और बुजुर्गों की मदद करना।',
-                '.banner_slider_item[style*="banner-10"] .banner_text h5': 'नया NGO, ईमानदार काम',
+                '.banner_slider_item[style*="banner-10"] .banner_text h5': 'नया एसोसिएशन, ईमानदार काम',
                 '.banner_slider_item[style*="banner-10"] .banner_text h1': 'हर स्थानीय ड्राइव से भरोसा बना रहे हैं।',
                 '.banner_slider_item[style*="banner-10"] .banner_text p': 'हमारी टीम अभी नई है, लेकिन प्रतिबद्धता साफ है। हर दान भोजन, स्कूल सामग्री, बेसिक केयर और जागरूकता कार्यक्रम जैसी वास्तविक जरूरतों में जाता है।',
                 '.banner_slider_item[style*="banner-111.jpeg"] .banner_text h5': 'मिलकर शुरुआत करें',
@@ -405,7 +405,7 @@ $(function () {
                 '.category_item h3:eq(4)': 'खेल सहयोग',
                 '.category_item h3:eq(5)': 'सामाजिक मदद',
                 '.about_us_2 .section_heading h5': 'हमारे बारे में',
-                '.about_us_2 .section_heading h2': 'स्थानीय परिवारों के साथ काम करने वाला नया युवा-नेतृत्व NGO',
+                '.about_us_2 .section_heading h2': 'स्थानीय परिवारों के साथ काम करने वाला नया युवा-नेतृत्व एसोसिएशन',
                 '.about_description': 'यूनाइटेड यूथ एसोसिएशन दो महीने पहले कुछ वॉलंटियरों और ईमानदारी से सेवा करने के वादे के साथ शुरू हुआ। हम बच्चों, परिवारों, बुजुर्गों और स्थानीय समुदायों की व्यावहारिक मदद पर ध्यान देते हैं।',
                 '.about_2_text_img .common_btn': 'और पढ़ें',
                 '.campaign_2 .section_heading h5': 'वर्तमान फोकस',
@@ -446,7 +446,7 @@ $(function () {
                 '.home_faq_intro': 'वॉलंटियर, दानदाता और समुदाय के लोगों के लिए साफ जवाब, जो समझना चाहते हैं कि हम कैसे काम करते हैं।',
                 '.testimonial_2_bg .section_heading h5': 'कम्युनिटी आवाजें',
                 '.testimonial_2_bg .section_heading h2': 'हमारी शुरुआती कोशिशों पर लोगों की राय',
-                '.footer_2_logo_area p': 'यूनाइटेड यूथ एसोसिएशन एक नया भारतीय युवा-नेतृत्व NGO है, जो शिक्षा, स्वास्थ्य, भोजन सहायता और कम्युनिटी केयर पर काम करता है।',
+                '.footer_2_logo_area p': 'यूनाइटेड यूथ एसोसिएशन एक नया भारतीय युवा-नेतृत्व एसोसिएशन है, जो शिक्षा, स्वास्थ्य, भोजन सहायता और कम्युनिटी केयर पर काम करता है।',
                 '.footer_2_link:eq(0) h3': 'क्विक लिंक',
                 '.footer_2_link:eq(1) h3': 'जुड़ें',
                 '.footer_2_contact h3': 'हमसे संपर्क'
